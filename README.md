@@ -1,6 +1,7 @@
-`install: npm i`
+install: `npm i`
 
-<h3>start script</h3>
+start script:
 
 backend: `node app.js`
+
 frontend: `npm start`
