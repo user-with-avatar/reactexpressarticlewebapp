@@ -1,4 +1,4 @@
-`install for backend: npm i`
+`install: npm i`
 
 <h3>start script</h3>
 
