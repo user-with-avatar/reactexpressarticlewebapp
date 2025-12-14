@@ -139,3 +139,5 @@
 >**styles**
 - created `styles.css` and imported in `index.css`, works
 - styleizd all the pages
+- rewritten all css, cleared some text
+- created dark theme overrides
