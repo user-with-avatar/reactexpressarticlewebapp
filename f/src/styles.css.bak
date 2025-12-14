@@ -1,0 +1,146 @@
+:root {
+    --c0: #000000;
+    --c1: #ffffff;
+    --c2: #e6e2d3;
+    --c2-2: #e2ddca;
+    --c3: #dac292;
+    --c4: #c4b7a6;
+    --c5: #b9936c;
+}
+
+body {
+    background-color: var(--c2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search input {
+    width: 100%;
+}
+.search a {
+    color: var(--c0);
+    text-decoration: none;
+}
+.search a:hover {
+    color: var(--c5)
+}
+
+a {
+    font-size: large;
+}
+.articletext {
+    resize: none;
+    background-color: var(--c2-2);
+    field-sizing: content;
+    max-width: 60vw;
+    font-size: 2vh;
+    outline: none;
+}
+
+.thebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.inthebodyholder {
+    margin-top: 10vh;
+    height: 100%;
+    padding: 4vh;
+    background-color: var(--c2-2);
+}
+
+.header {
+    display: flex;
+    height: 6vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: var(--c2-2);
+}
+.header button {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+}
+.headerrightside {
+    margin-left: auto;
+}
+.header img {
+    height: auto;
+}
+.header img:hover {
+    width: 9vh;
+}
+.headernameholder {
+    position: relative;
+}
+.headernameholder a {
+    position: absolute;
+    bottom: 0;
+}
+
+img {
+    height: 5vh;
+    aspect-ratio: 1 / 1;
+    object-fit: fill;
+}
+
+input {
+    background-color: var(--c1);
+    height: 3vh;
+    font-size: 2vh;
+    border: none
+}
+
+.comment > .comment {
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+.comment button {
+    margin-right: 1vh;
+}
+
+button {
+    width: calc(fit-content + 100px);
+    height: 100%;
+    background-color: var(--c3);
+    color: var(--c0);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+button:hover {
+    background-color: var(--c5);
+}
+
+.logreg button {
+    width: 100%;
+    height: 5vh;
+}
+.logreg input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    background-color: var(--c1);
+    font-size: 2vh;
+    border: none;
+    margin-bottom: 5vh;
+    white-space: pre-line;
+}
+.createedit input {
+    width: 100%;
+    margin-bottom: 1vh;
+}
+.createedit button {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+.c0 { background-color: var(--c0) }
+.c1 { background-color: var(--c1) }
+.c2 { background-color: var(--c2) }
+.c3 { background-color: var(--c3) }
+.c4 { background-color: var(--c4) }
+.c5 { background-color: var(--c4) }
